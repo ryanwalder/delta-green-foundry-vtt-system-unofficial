@@ -1,0 +1,19 @@
+{
+  "name": "delta-green-foundry-vtt-system-unofficial",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Officially supported rules implementation (system) for [Foundry Virtual Tabletop](https://foundryvtt.com/) system for Delta Green: The Role-Playing Game, based on the _Agent's Handbook_ rule set from Arc Dream Publishing (_**not** the Call of Cthulu rules_).",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo are there tests?",
+    "lint": "npx eslint modules/",
+    "lint:fix": "npx eslint --fix modules/"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0"
+  }
+}
